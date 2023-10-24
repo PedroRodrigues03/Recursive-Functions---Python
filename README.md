@@ -16,6 +16,7 @@ Every recursive function must have:
 + A base case that stop the recursivity.
 
 NOTE 1: Recursive Functions are similiar to repeat loops, such as for and while.
+
 NOTE 2: Usually when we got a for loop or while loop too big, USUALLY, we can turn them into a recursive function.
 
 
