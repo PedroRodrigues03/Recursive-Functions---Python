@@ -24,8 +24,8 @@ We must have attention when bulding recursive functions, mainly in Python. When 
 Now that we understand what happens under the covers, we must pay attention cause we may break our code even though it's right! Why can it happens? The Python (VS Code) has a recursivity limit in the call back, that is 1000 recursions. When we surpass this limit the code breaks and we have the same exception (RecursionError).
 
 NOTE 3: Personally, i would not recomend build a recursive function when you got more than 500~600 recursions, preferring the for loops and while loops, but, there is a manner that we can bypass the limit situation (again, it's not a recomandation, avoid this approach) importing the module sys. See below:
-    + import sys
-    + sys.setrecursionlimit(new_limit)
++ import sys
++ sys.setrecursionlimit(new_limit)
     The "new_limit" is a int number that define a new limit of recursions, you can set, for example a new limit of 2000 recursions.
 
 
